@@ -11,7 +11,7 @@ During peak hours, high CPU or memory usage could slow down the server. We will 
 ```bash
 top
 ```
-![sc1](./images/sc1.png)
+[sc1](./images/sc1.png)
 
 Key things to look for in top output:
 
