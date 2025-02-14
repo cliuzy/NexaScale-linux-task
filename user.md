@@ -48,6 +48,8 @@ sudo usermod -aG developers devuser5
 ```bash
 cat /etc/group | grep developers
 ```
+___
+
 ### Ensure they have read and execute permissions for /var/www/project but cannot modify files.
 
 #### 1.  Ensure the project directory exists
@@ -73,6 +75,8 @@ Group (developers) has read & execute (r-x)
  ```
  drwxr-x--- 2 root developers 4096 Feb 14 10:00 /var/www/project
 ```
+___
+
 ### Restrict SSH Access for Two Users
 Developers devuser4 and devuser5 should only log in locally and not via SSH.
 #### 1. Edit the SSH configuration file:
@@ -104,7 +108,9 @@ Expected Output:
 ```bash
 Permission denied
 ```
-we Created five developer accounts and added them to the developers group.
+___
+
+we created five developer accounts and added them to the developers group.
 
 Configured /var/www/project directory to allow only read & execute access for developers.
 
