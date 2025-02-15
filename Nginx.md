@@ -47,7 +47,7 @@ HTTP/1.1 200 OK
 ```
 ---
 
-### 3️ Set Up Auto-Restart for Nginx If It Crashes
+###` 3️ Set Up Auto-Restart for Nginx If It Crashes
 - Open the Nginx service file:
 
 ```bash
