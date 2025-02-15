@@ -11,7 +11,7 @@ During peak hours, high CPU or memory usage could slow down the server. We will 
 ```bash
 top
 ```
-![sc1](https://files.fm/f/4pjqj3wynt)
+![sc1](./images/images%2020-41-56-640/sc1.png)
 
 Key things to look for in top output:
 
@@ -27,7 +27,7 @@ If a process is consuming high CPU investigate further.
 ```bash
 ps
 ```
-![sc2](https://files.fm/f/t6nvt7jz46)
+![sc2](./images/images%2020-41-56-640/sc2.png)
 #### kill the process
 ```bash
 sudo kill -9 <PID>
@@ -43,12 +43,12 @@ If logs are too large, they could be slowing down the server.
  df -h
  ```
 
-![sc3](https://files.fm/f/snv5rebxvp)
+![sc3](./images/images%2020-41-56-640/sc3.png)
 check which directories are taking up space
 ```bash
 du -sh /var/log/*
 ```
-![sc4](https://files.fm/f/ubppz3vctk)
+![sc4](./images/images%2020-41-56-640/sc4.png)
 
 #### Clear or Compress Large Log Files
 
